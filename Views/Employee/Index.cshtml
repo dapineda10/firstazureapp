@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Employee>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Employee</h1>
+
+@foreach (var emp in @Model)
+{
+    <h1>@emp.Name</h1>
+    <p>@emp.age</p>
+    <p>@emp.position</p>
+}
+
+    <a class="btn btn-primary" asp-area="" asp-controller="Employee" asp-action="Create">Create employee</a>
+
+

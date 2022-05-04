@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\dpineda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dpineda\\.nuget\\packages"
+    ]
+  }
+}

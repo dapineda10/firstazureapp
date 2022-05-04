@@ -1,0 +1,18 @@
+﻿@model Employee
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<form method="POST">
+    <div class="col-8">
+        <input name="Name" class="form-control" placeholder ="Name"/>
+        <input name="Age" class="form-control" type="number" placeholder ="Age"/>
+        <input name="Position" class="form-control" placeholder ="Position"/>
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+    </div>
+
+    <a class="btn btn-primary" asp-area="" asp-controller="Employee" asp-action="Index">Employees list</a>
+</form>
